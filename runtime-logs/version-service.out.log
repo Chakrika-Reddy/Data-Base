@@ -1,0 +1,78 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< edu.fileguard:version-service >--------------------
+[INFO] Building version-service 1.0.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:3.3.5:run (default-cli) > test-compile @ version-service >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ version-service ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ version-service ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ version-service ---
+[INFO] skip non existing resourceDirectory D:\visual studio code\MyProject\src\file-versioning-system\version-service\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ version-service ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] <<< spring-boot:3.3.5:run (default-cli) < test-compile @ version-service <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:3.3.5:run (default-cli) @ version-service ---
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.5)
+
+2026-10-01T06:02:25.589+05:30  INFO 30572 --- [           main] e.f.versionservice.VersionApplication    : Starting VersionApplication using Java 21.0.7 with PID 30572 (D:\visual studio code\MyProject\src\file-versioning-system\version-service\target\classes started by hp in D:\visual studio code\MyProject\src\file-versioning-system\version-service)
+2026-10-01T06:02:25.592+05:30  INFO 30572 --- [           main] e.f.versionservice.VersionApplication    : No active profile set, falling back to 1 default profile: "default"
+2026-10-01T06:02:26.322+05:30  INFO 30572 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-01T06:02:26.396+05:30  INFO 30572 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 53 ms. Found 1 JPA repository interface.
+2026-10-01T06:02:26.986+05:30  INFO 30572 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8082 (http)
+2026-10-01T06:02:27.013+05:30  INFO 30572 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-01T06:02:27.013+05:30  INFO 30572 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2026-10-01T06:02:27.104+05:30  INFO 30572 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-10-01T06:02:27.106+05:30  INFO 30572 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1445 ms
+2026-10-01T06:02:27.325+05:30  INFO 30572 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-10-01T06:02:27.381+05:30  INFO 30572 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2026-10-01T06:02:27.413+05:30  INFO 30572 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-10-01T06:02:27.939+05:30  INFO 30572 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-01T06:02:28.025+05:30  INFO 30572 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-10-01T06:02:28.437+05:30  INFO 30572 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@49038f97
+2026-10-01T06:02:28.441+05:30  INFO 30572 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-10-01T06:02:30.707+05:30  INFO 30572 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-01T06:02:31.041+05:30  INFO 30572 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-01T06:02:32.871+05:30  INFO 30572 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8082 (http) with context path '/'
+2026-10-01T06:02:32.896+05:30  INFO 30572 --- [           main] e.f.versionservice.VersionApplication    : Started VersionApplication in 7.712 seconds (process running for 8.227)
+2026-10-01T06:03:19.888+05:30  INFO 30572 --- [nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-10-01T06:03:19.899+05:30  INFO 30572 --- [nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-10-01T06:03:19.903+05:30  INFO 30572 --- [nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2026-10-01T07:29:11.105+05:30  WARN 30572 --- [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=54m52s866ms917µs200ns).
+2026-10-01T09:59:07.933+05:30  WARN 30572 --- [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h29m56s829ms141µs).
+2026-10-01T10:59:29.715+05:30  WARN 30572 --- [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m11s714ms308µs600ns).
+2026-10-01T11:46:41.451+05:30  WARN 30572 --- [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m40s982ms261µs800ns).
+2026-10-01T12:07:50.250+05:30  WARN 30572 --- [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=21m8s798ms441µs).
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  06:22 h
+[INFO] Finished at: 2026-10-01T12:24:29+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.springframework.boot:spring-boot-maven-plugin:3.3.5:run (default-cli) on project version-service: Process terminated with exit code: -1 -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
